@@ -1,0 +1,16 @@
+{
+  "name": "twojvendor/places-manager",
+  "description": "CPT Places + AJAX add/filter/load more + editable table",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "PM\\": "includes/"
+    }
+  },
+  "require": {},
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
